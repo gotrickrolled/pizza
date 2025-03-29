@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: urdu regular;
+    src: url(./fonts/NotoNastaliqUrdu-Regular.ttf);
+}
+.evencooler {
+    display: flex;
+    align-items: stretch; /* Ensures both elements take the same height */
+    gap: 10px; /* Adds spacing between navbar buttons and koolbox */
+}
+
+.leftnav {
+    display: flex;
+    flex-direction: column;  
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.navbar li {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    background-color: #252d0ca9;
+    margin: 7px 0;
+    line-height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.navbar li a {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    color: #e9dac8;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#greetings {
+    color: #21210af6;
+    font-size: 4em;
+}
+
+.koolbox {
+    width: 900px;
+    height: 600px;
+    font-size: large;
+    backdrop-filter: blur(15px);
+    background-color: #978879ab;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+#active {
+    border: 2px solid #4d4d3b;
+}
+#active a {
+    color: #c4a784 !important; 
+}
+
+.watermelon {
+    position: fixed; /* Position the image absolutely */
+    top: 0; /* Align it to the top of the page */
+    right: 0; /* Align it to the left of the page */
+    z-index: 10; /* Ensure it's on top of other elements */
+    width: 80px; /* Set the size of the image */
+    height: auto; /
+}
+
+.nc {
+    position: fixed; /* Position the image absolutely */
+    bottom:0; /* Align it to the top of the page */
+    left: 0; /* Align it to the left of the page */
+    z-index: 10; /* Ensure it's on top of other elements */
+    width: 250px; /* Set the size of the image */
+    height: auto; /
+}
