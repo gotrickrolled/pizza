@@ -58,6 +58,10 @@ body {
     font-size: 4em;
 }
 
+h1 {
+    color: #21210af6;
+}
+
 .koolbox {
     width: 900px;
     height: 600px;
@@ -93,4 +97,19 @@ body {
     z-index: 10; /* Ensure it's on top of other elements */
     width: 250px; /* Set the size of the image */
     height: auto; /
+}
+
+.webringpeeps li a {
+    color: #21210af6;
+    text-decoration: none;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.webringpeeps li a:hover {
+    color:#c4a784
+}
+
+.webringcont {
+    text-align: left;
 }
