@@ -40,7 +40,7 @@ body {
     line-height: 20px;
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
@@ -78,10 +78,12 @@ h1 {
 }
 
 #active {
-    border: 2px solid #4d4d3b;
+    box-shadow: 0 4px 8px rgba(107, 142, 35, 0.6);
+    border: 2px solid rgb(77, 77, 59);
 }
 #active a {
     color: #c4a784 !important; 
+    text-shadow: 0 4px 8px rgba(227, 192, 111, 0.6)
 }
 
 .watermelon {
