@@ -164,5 +164,40 @@ h1 {
 
 #fancyline {
     width: 600px;
-    margin-top: -7%
+    margin-top: -7%;
+}
+
+#title {
+    font-size: 300%;
+}
+
+.contactlist {
+    list-style-type: none;
+    padding-right: 2%;
+}
+
+.contactlist li a {
+    color: #21210af6;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contactlist li a:hover {
+    color: #c4a784;
+}
+
+.contactcontent p {
+    font-size: xx-large;
+}
+
+
+.contacticon {
+    width: 7%;
+    vertical-align: middle;
+    padding-right: 1%;
+} 
+
+.discord {
+    padding-right: 3%;
 }
